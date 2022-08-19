@@ -1,0 +1,55 @@
+body {
+    background-color: blue; 
+        margin: 20px 0;
+        justify-content: center;
+        display: flex;
+    }
+    .contains {
+        text-align: center;
+        background-color: white;
+        padding: 30px;
+        width: 200px;
+        border-radius: 7px;
+        
+        
+    
+    }
+    h1{
+        font-size: 30px;
+        font-weight:200;
+        height: 600;
+        text-align: center;
+        color: dodgerblue;
+    }
+    
+    input[type="number"] {
+        outline: none;
+        border: 1px solid gray;
+        border-radius: 10px;
+        font-weight: bold;
+        height: 25px;
+        
+
+    }
+    input[type="submit"] {
+        border: 1px solid;
+        border-radius: 10px;
+        font-weight: bold;
+        height: 30px;
+        width: 100px;
+        margin-top: 20px;
+        background-color: blue;
+        color: white;
+
+    }
+    p{
+        font-weight: bold;
+    }
+    .bb{
+        margin-left: 200px;
+        display: inline;
+        justify-content: center;
+        margin-top: 1em;
+        
+        
+    }
