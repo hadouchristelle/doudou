@@ -21,4 +21,8 @@ eursInput.addEventListener("input", () => {
     console.log(" tesyt hadou ", nouvelleConversion);
   });
 });
+
+function testFunction() {
+  alert("tu as cliqué sur hadou ");
+}
 fcfas.addEventListener("input", () => {});
