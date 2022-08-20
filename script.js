@@ -1,24 +1,36 @@
-const eursInput = document.getElementById("input-eur");
+const eursInput = document.getElementById('input-eur')
 
-const fcfasInput = document.getElementById("input-fcfa");
+const fcfasInput = document.getElementById('input-fcfa')
 
-eursInput.addEventListener("input", () => {
-  const eur = eursInput.value;
+eursInput.addEventListener('input', () =>{
 
-  const eurNombre = parseFloat(eur);
+    const eur = eursInput.value
 
-  const taux = fcfasInput.getAttribute("data-taux");
+    const eurNombre = parseFloat(eur)
 
-  const tauxNombre = parseFloat(taux);
+    const taux = fcfasInput.getAttribute('data-taux')
 
-  document.getElementById("a").addEventListener("click", function () {
-    const nouvelleConversion = eurNombre * tauxNombre;
+    const tauxNombre = parseFloat(taux)
 
-    console.log(nouvelleConversion);
+    
 
-    fcfasInput.value = nouvelleConversion;
+   document.getElementById('a').addEventListener('click', function(){
 
-    console.log("test ", nouvelleConversion);
-  });
-});
-fcfas.addEventListener("input", () => {});
+    const nouvelleConversion = eurNombre * tauxNombre
+
+    console.log(nouvelleConversion)
+
+    fcfasInput.value = nouvelleConversion 
+
+    console.log(nouvelleConversion)
+    
+
+   })
+
+    
+ 
+})
+fcfas.addEventListener('input',()=>{ 
+      
+})
+ 
