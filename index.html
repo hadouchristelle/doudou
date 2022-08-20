@@ -1,24 +1,35 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="style.css"/>
-        <title> convertiseur d'argent</title>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title>convertiseur d'argent</title>
+  </head>
+  <body>
+    <div class="contains">
+      <h1>convertiseur de monaie</h1>
+      <p>entrer votre valeur en euro</p>
+      <input
+        type="number"
+        id="input-eur"
+        step="0,00001"
+        value="1"
+        data-taux="1"
+      />
+      <p class="bb">euro</p>
 
-    </head>
-    <body>
-        <div class="contains">
-            <h1> convertiseur de monaie</h1>
-            <p>entrer votre valeur en euro </p>
-            <input type="number" id="input-eur" step="0,00001" value="1" data-taux="1"/>
-            <p class="bb">euro</p>
+      <input type="submit" id="a" value="convertis" />
+      <p>decouvrer la somme en fcfa</p>
+      <input
+        type="number"
+        id="input-fcfa"
+        step="0,00001"
+        value="650"
+        data-taux="650"
+      />
+      <p class="bb">fcfa</p>
 
-            <input type="submit" id="a" value="convertis"/>
-            <p>decouvrer la somme en fcfa</p>
-            <input type="number" id="input-fcfa" step="0,00001" value="650" data-taux="650"/>
-            <p class="bb">fcfa</p>
-
-<script src="script.js"></script>
-        </div>
-    </body>
+      <script src="script.js"></script>
+    </div>
+  </body>
 </html>
