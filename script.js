@@ -25,7 +25,7 @@ eursInput.addEventListener("input", () => {
 
       console.log(" tesyt hadou ", nouvelleConversion);
 
-    //}
+    // }
   });
 //});
 
