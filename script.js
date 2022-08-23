@@ -3,6 +3,7 @@ const eursInput = document.getElementById("input-eur");
 const fcfasInput = document.getElementById("input-fcfa");
 
 eursInput.addEventListener("input", () => {
+ // eursInput= function (){
   const eur = eursInput.value;
 
   const eurNombre = parseFloat(eur);
@@ -11,16 +12,22 @@ eursInput.addEventListener("input", () => {
 
   const tauxNombre = parseFloat(taux);
 
-  document.getElementById("a").addEventListener("click", function () {
+  
+
+ //document.getElementById("a").addEventListener("click", function () {
     const nouvelleConversion = eurNombre * tauxNombre;
 
     console.log(nouvelleConversion);
 
     fcfasInput.value = nouvelleConversion;
 
-    console.log(" tesyt hadou ", nouvelleConversion);
+    //function dadfunction(){
+
+      console.log(" tesyt hadou ", nouvelleConversion);
+
+    //}
   });
-});
+//});
 
 function testFunction() {
   alert("tu as cliqué sur hadou ");
